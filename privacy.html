@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="static/assets/css/app.css@hash=1Fhh8xO6mJvyXbbI.css" rel="stylesheet">
+		<meta name="google-site-verification" content="8kDVb1U83X9tvIBFSqOfemMOGwRcWc-H1BOBZE_5gCI">
+		<meta name="yandex-verification" content="f5eb71addea0ad12">
+		<meta name="verification" content="28d5f7d28e31fd5be4e94628a4f47a">
+		<meta name="verification" content="90d32c4e6c1a5a36161bf452761d2d">
+		<meta name="webmoney.attestation.label" content="webmoney attestation label#52271762-51F0-4D8F-842B-AB98F530A59B">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Neverlose.cc - Privacy Policy</title>
+
+	<meta name="msapplication-TileColor" content="#0095B9">
+	<meta name="theme-color" content="#030f1a">
+<link rel="apple-touch-icon" sizes="180x180" href="static/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="static/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="static/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="static/assets/favicon/site.webmanifest">
+<link rel="mask-icon" href="static/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">	<style>
+.horizontal_btn {
+  display: flex;
+  column-gap: 15px;
+}
+
+textarea.input_aug {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 77px;
+  height: 77px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 14px;
+  background: rgba(0,0,0,0);
+  border: 1px solid rgba(0,149,185,.3);
+  outline: none;
+  border-radius: 4px;
+  -moz-appearance: textfield;
+}
+
+.paste_popup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end !important;
+    row-gap: 15px !important;
+    padding: 20px 40px;
+}
+.paste_popup .text {
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    color: #fff;
+}
+
+.soc_fixed .items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  margin-left: 5px !important;
+}
+
+.soc_fixed {
+  bottom: 35%;
+  align-items: center;
+  left: 20px !important;
+}
+
+.soc_fixed p {
+  width: auto;
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+}
+	</style>
+</head>
+<body>
+	<div>
+		<!-- div id="ball"></div -->
+    <div style="display: none;" id="xd-csrf--" x-csrf=""></div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(){
+        let cse = document.getElementById("xd-csrf--");
+        let cst = cse.getAttribute("x-csrf");
+        if (!cst) { return; }
+
+        let forms = document.getElementsByTagName("form");
+        for(var i = 0; i < forms.length; i++) {
+          let input = document.createElement("input");
+          input.type = "hidden";
+          input.name = "csrf";
+          input.value = cst;
+          forms[i].appendChild(input);
+        }
+      });
+    </script>
+
+<style>
+    .check-new{
+        align-self: flex-start;
+        padding-left: 60px !important;
+    }
+</style>
+<div class="popup_fade"></div>
+
+<script>
+        var auth_captcha;
+        var reg_captcha;
+        var forgot_captcha;
+        var captchaCallBack = function() {
+            auth_captcha = grecaptcha.render('auth-captcha', {
+                'sitekey' : '6LfltkAUAAAAAIYhSuMgm33hCMmhtkuj4iLOzaxn',
+                'theme' : 'light'
+            });
+
+            reg_captcha = grecaptcha.render('reg-captcha', {
+                'sitekey' : '6LfltkAUAAAAAIYhSuMgm33hCMmhtkuj4iLOzaxn',
+                'theme' : 'light'
+            });
+            
+            forgot_captcha = grecaptcha.render('forgot-captcha', {
+                'sitekey' : '6LfltkAUAAAAAIYhSuMgm33hCMmhtkuj4iLOzaxn',
+                'theme' : 'light'
+            });
+        };
+</script>
+
+<div class="popups" id="reg">
+    <div class="block widthPopUp">
+        <div class="close">
+            <a href="privacy.html#"><i class="fas fa-times-circle"></i></a>
+        </div>
+        <form method="post" action="https://neverlose.cc/doregister" class="userform">
+            <div class="container flex-cont">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="static/assets/img/logo.png@81351b9614212619b30585a60cb04838" alt="logo">
+                    </a>
+                </div>
+                <div class="status"></div>
+                <div class="input_log">
+                    <input type="text" placeholder="Login" name="login" required>
+                </div>
+                <div class="input_pass">
+                    <input type="password" placeholder="Password" name="password" required>
+                </div>
+                <div class="input_email">
+                    <input type="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="capcha"><div id="auth-captcha"></div></div>
+                
+                <div class="check check-new">
+                    <input type="checkbox" name="yes" id="yesCheck" required>
+                    <label for="yesCheck">I agree with <a href="tos.html">terms of use</a>
+                        
+                    </label>
+                </div>
+                <div class="check check-new">
+                    <input type="checkbox" name="yes" id="yesCheck2" required>
+                    <label for="yesCheck2">I agree with  <a href="legal.html">user license agreement</a>
+                    </label>
+                </div>
+                <div class="check check-new">
+                    <input type="checkbox" name="yes" id="yesCheck3" required>
+                    <label for="yesCheck3">I agree with <a href="privacy.html">privacy policy</a>
+                    </label>
+                </div>
+                <input type="submit" value="Register" class="btn">
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="popups" id="log">
+    <div class="block widthPopUp">
+        <div class="close">
+            <a href="privacy.html#"><i class="fas fa-times-circle"></i></a>
+        </div>
+        <form method="post" action="https://neverlose.cc/login" class="userform">
+            <div class="container flex-cont">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="static/assets/img/logo.png@81351b9614212619b30585a60cb04838" alt="logo">
+                        </a>
+                    </div>
+                    <div class="status"></div>
+                    <div class="input_log">
+                        <input type="text" placeholder="Login" name="login" required>
+                    </div>
+                    <div class="input_pass">
+                        <input type="password" placeholder="Password" name="password" required>
+                    </div>
+                    <div class="capcha"><div id="reg-captcha"></div></div>
+                    <input type="submit" value="Login" class="btn">
+                    <div class="some_text">
+                        <a href="privacy.html#respassw" class="to-popup">Forgot password?</a>
+                        <a href="privacy.html#respassw" class="to-popup">Resend activation link</a>
+                        <a href="privacy.html#reg" class="to-popup">Still don&#039;t have an account? <span>Register</span></a>
+                    </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="popups" id="2facode">
+    <div class="block widthPopUp">
+        <div class="close">
+            <a href="privacy.html#"><i class="fas fa-times-circle"></i></a>
+        </div>
+        <form method="post" action="https://neverlose.cc/2falogin" class="userform">
+            <div class="container flex-cont">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="static/assets/img/logo.png@81351b9614212619b30585a60cb04838" alt="logo">
+                        </a>
+                    </div>
+                    <div class="status"></div>
+					
+					<div class="twofa_text">
+                      Please enter the verification code generated by the app on your phone.
+                    </div>
+					
+                    <div class="input_log" style="margin-bottom:5px;">
+                        <input type="text" placeholder="Code from authenticator" name="code" required maxlength="6" minlength="6">
+                    </div>
+                    <input type="submit" value="Login" class="btn">
+                <div class="some_text">
+                    <a href="lost_2fa_help.html" target="_blank">Lost 2FA?</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="popups" id="respassw">
+    <div class="block widthPopUp">
+        <div class="close">
+            <a href="privacy.html#"><i class="fas fa-times-circle"></i></a>
+        </div>
+        <form method="post" action="https://neverlose.cc/resetpassw" class="userform">
+            <div class="container flex-cont">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="static/assets/img/logo.png@81351b9614212619b30585a60cb04838" alt="logo">
+                        </a>
+                    </div>
+                    <div class="status"></div>
+                    <div class="input_email">
+                        <input type="email" placeholder="Email" name="email" required>
+                    </div>
+                    <div class="capcha"><div id="forgot-captcha"></div></div>
+                    <input type="submit" value="Send" class="btn">
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+		<section class="menu">
+			<div class="logo">
+				<div class="img">
+					<a href="index.html"><img src="static/assets/img/logo.png@81351b9614212619b30585a60cb04838" alt="logo"></a>
+				</div>
+			</div>
+			<div class="links">
+				<a href="index.html">Main</a>
+				<a href="forum.html">Forum</a>
+				<a href="help.html">Help</a>
+			</div>
+			<div class="other">
+				
+				<div class="custom-select lang">
+					<select>
+                        <option value="1">En</option>
+						<option value="0">Ru</option>
+						<option value="1">En</option>
+					</select>
+				</div>
+				<div class="reg">
+					<a href="privacy.html#reg" class="to-popup"></i> Register</a>
+				</div>
+				<div class="login">
+					<a href="privacy.html#log" class="to-popup">Login</a>
+				</div>
+			</div>
+		</section>
+
+<style>
+.text2 {
+    color: #fff;
+    margin: 0 auto;
+    width: min(900px, 100%);
+}
+
+.text2_popup {
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* === blocks === */
+
+.text2 :is(p, .para) {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.text2 .bottom {
+    margin-top: 35px;
+}
+
+.text2 h1 {
+    font-size: 1.75em;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.text2 h2 {
+    font-size: 1.40em;
+    font-weight: 900;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.text2 h3 {
+    font-size: 1.15em;
+    font-weight: 700;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.text2.faq h2 {
+    text-align: left;
+    /* color: #51afff; */
+}
+
+.text2 ul {
+    list-style: outside disc;
+    padding-left: 8px;
+}
+.text2 ol {
+    list-style: outside number;
+}
+.text2 li :is(ul, ol) {
+    padding-left: 30px;
+}
+.text2 li {
+    margin-bottom: 5px;
+}
+
+.text2 blockquote {
+    border-left: 2px solid;
+    margin: 10px 0;
+    padding: 10px 5px;
+    padding-left: 15px;
+    border-color: #2d758e;
+    background-color: #0c293394;
+}
+
+.text2 a {
+    color: #5eb4ff;
+    text-decoration: none;
+}
+
+
+
+/* === text styles === */
+
+.text2 s {
+    text-decoration: line-through;
+}
+
+.text2 .mono {
+    font-family: nl_mono;
+}
+
+.text2 :is(b, strong, .bold) {
+    font-weight: 600;
+}
+
+.text2 code {
+  font-family: nl_mono;
+  font-size: 1.2em;
+  padding: 2px 6px;
+  background: #0000005e;
+  border: 1px solid #177ad05e;
+  border-radius: 4px;
+}
+
+.text2 :is(i, .italic) {
+    font-style: italic;
+}
+
+.text2 .smaller {
+    font-size: 0.8em;
+}
+
+.text2 .dimmer {
+    color: #a2a2a2;
+}
+</style>
+
+<div>
+    <section class="tos">
+        <div class="wrapper">
+            <h1>Privacy Policy</h1>
+            <div class="container">
+                <div class="text text2 ">
+                    <h1>Privacy Policy for the Processing of Personal Data</h1>
+<hr />
+<p><strong>Disclaimer:</strong> This document has been translated from the Russian language and may contain legal inaccuracies. For any legal matters, kindly refer to the original document in Russian.</p>
+<p>Use language selector in top-right corner of this website to refer to original document.</p>
+<hr />
+<h2>1. General Provisions</h2>
+<p>This Privacy Policy for the processing of personal data is prepared in accordance with the requirements of the Federal Law of the Russian Federation No. 152-FZ "On Personal Data" dated July 27, 2006. It defines the procedures for processing personal data and the measures taken to ensure the security of personal data by Individual Entrepreneur Vladislav Vladimirovich Mindubaev TIN 771582890130 (hereinafter referred to as the "Operator"). The Operator is the legal owner of websites, services, programs, and other products, including but not limited to those of informational, communicational, advertising, educational, and entertainment nature (collectively referred to as the "Services" and individually as the "Service") accessible online at <a href="index.html">https://neverlose.cc/</a> (hereinafter referred to as the "Website") and individual Internet users (hereinafter referred to as the User) regarding the processing of information about the User, including personal data, during their use of the Services.</p>
+<p>This Policy of the Operator regarding the processing of personal data (hereinafter referred to as the "Policy") applies to all information that the Operator may obtain about visitors to the website <a href="index.html">https://neverlose.cc/</a>.</p>
+<p>Relations related to the processing of information, including but not limited to the collection, use, storage, dissemination, and protection of information about Website users, are governed by this Policy and the applicable laws of the Russian Federation. Before beginning to use the Services, the User is required to familiarize themselves with this Policy.</p>
+<p>By registering, accessing, and/or actually using any of the Services, the User agrees to the terms of this Policy, the privacy policies of the individual Services, as well as the terms, conditions, and rules of the Services they use, which are posted on the pages (in sections) of the respective Services in the versions that were in effect at the time of actual use of such Services.</p>
+<h2>2. Key Definitions Used in the Policy</h2>
+<ul>
+<li><strong>Automated processing of personal data</strong>: Processing of personal data employing computer technology;</li>
+<li><strong>Blocking of personal data</strong>: Temporary suspension of the processing of personal data (except where processing is necessary to clarify personal data);</li>
+<li><strong>Website</strong>: A collection of graphic and informational materials, as well as computer programs and databases, ensuring their availability on the Internet at the network address <a href="index.html">https://neverlose.cc/</a>;</li>
+<li><strong>Information system of personal data</strong>: A collection of personal data contained in databases and the information technologies and technical means ensuring their processing;</li>
+<li><strong>Anonymization of personal data</strong>: Actions resulting in the impossibility of identifying, without additional information, the specific User or other Subject to whom the personal data pertains;</li>
+<li><strong>Processing of personal data</strong>: Any action (operation) or a set of actions (operations) performed with or without the use of automation tools concerning personal data, including collection, recording, systematization, accumulation, storage, clarification (updating, modification), extraction, usage, transfer (dissemination, provision, access), anonymization, blocking, deletion, and destruction of personal data;</li>
+<li><strong>Operator</strong>: A state authority, municipal authority, legal entity, or individual who independently or jointly with other persons organizes and (or) carries out the processing of personal data, as well as determines the purposes of the processing of personal data, the composition of personal data to be processed, and the actions (operations) performed with personal data;</li>
+<li><strong>Personal data</strong>: Any information relating directly or indirectly to a specific or identifiable User of the website <a href="index.html">https://neverlose.cc/</a>;</li>
+<li><strong>User (aka Data Subject)</strong>: Any visitor of the website <a href="index.html">https://neverlose.cc/</a>;</li>
+<li><strong>Provision of personal data</strong>: Actions aimed at disclosing personal data to a specific person or a specific group of persons;</li>
+<li><strong>Dissemination of personal data</strong>: Any actions aimed at disclosing personal data to an undefined group of persons (transfer of personal data) or at making personal data known to an unlimited number of persons, including the publication of personal data in mass media, placement in information and telecommunication networks, or provision of access to personal data in any other way;</li>
+<li><strong>Cross-border transfer of personal data</strong>: Transfer of personal data to the territory of a foreign state, to a foreign state authority, a foreign individual, or a foreign legal entity;</li>
+<li><strong>Destruction of personal data</strong>: Any actions resulting in the irreversible destruction of personal data with no possibility of further restoration in the personal data information system and/or the destruction of physical media containing personal data.</li>
+</ul>
+<h2>3. Processed Data</h2>
+<p>3.1.1 The Information processed by the Operator includes:</p>
+<ul>
+<li>Username;</li>
+<li>Email address;</li>
+<li>IP address;</li>
+<li>Browser language;</li>
+<li>Operating system;</li>
+<li>Unique PC identifiers.</li>
+</ul>
+<p>The Website also collects and processes anonymized data about visitors (including "Cookies") using internet statistics services.</p>
+<p>Cookies are small pieces of data that websites request from a browser on a computer or mobile device. These cookies are stored locally on the User's computer or mobile device. The Operator collects and processes cookies for Users who visit the Website.</p>
+<p>Information collected via cookies on the User's device may be transferred to and accessed by the Operator and/or third parties specified in section 6 of this Policy, as well as companies owning web analytics services such as <a href="http://Mail.ru">Mail.ru</a> Rating, Yandex.Metrica, Google Analytics, and/or similar services. The aforementioned data are collectively referred to as Personal Data in this Policy.</p>
+<h2>4. Purposes of Personal Data Processing</h2>
+<p>The purposes of processing the User's personal data include:</p>
+<ul>
+<li>Conclusion, execution, and termination of civil law contracts;</li>
+<li>Formation of a customer base consisting of individuals for the subsequent conclusion and execution of civil law contracts (concerning all collected personal data);</li>
+<li>Sending notifications to the User (concerning all collected personal data);</li>
+<li>Preparation of individualized offers by the Operator (concerning all collected personal data).</li>
+</ul>
+<p>The Operator may use personal information for internal purposes, such as auditing, data analysis, and various research activities aimed at improving the Operator's products and services and interacting with Users.</p>
+<p>The Operator is also entitled to notify the User about new products and services, special offers, and various events. The User may opt out of receiving informational messages by sending a request to <a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="3c50595b5d507c52594a594e50534f59125f5f">[email&#160;protected]</a> with the subject "Unsubscribe from notifications about new products, services, and special offers."</p>
+<p>Anonymized data collected from Users via internet statistics services is used to gather information about Users' actions on the Website, improve the Website's quality, and enhance its content.</p>
+<h2>5. Legal Grounds for Processing Personal Data</h2>
+<p>The Operator processes the User's personal data only if the User fills them in and/or sends them independently through specific forms on the Website <a href="index.html">https://neverlose.cc/</a>. By filling in the relevant forms and/or sending their personal data to the Operator, the User consents to this Policy.</p>
+<p>The Operator processes anonymized data about the User if permitted by the User's browser settings (i.e. if cookies are enabled and JavaScript technology is used).</p>
+<p>User accounts and other data are not disclosed to any third parties except as expressly provided by this Policy, other applicable rules, or applicable legislation. The Operator may transfer User accounts and other data to third parties adhering to the purposes and grounds specified in this Policy. Such third parties may include:</p>
+<ul>
+<li>Individuals involved in providing services related to the placement and display of information to Users (including offers relevant to User interests) regarding the Operator's services in programs, products, or services owned or controlled by such individuals (e.g. website and application owners, advertising networks, etc.);</li>
+<li>Individuals who have legal grounds to process the account and other data, for example, if the transfer of the account and other data to such persons is carried out with the consent of the User, including if the account and other data are necessary to provide the User with the relevant service or to fulfill a certain agreement or contract concluded with the User, particularly mobile operators and/or technology partners acting between the Operator and mobile operators. These individuals also include partners and affiliates of the Operator, whose data processing is provided for by the terms of this Policy;</li>
+<li>Third parties in respect of whom the assignment of rights or obligations has been made or novation has been made under the relevant agreement;</li>
+<li>Any government or local authority to which the Operator is required to provide information under applicable law upon a corresponding request.</li>
+</ul>
+<h2>6. Procedure for Collection, Storage, Transfer, and Other Types of Personal Data Processing</h2>
+<p>The Operator processes personal data, meaning operations performed with or without the use of automation tools, including the collection, recording, systematization, accumulation, storage, clarification (updating, changing), extraction, use, transfer (provision, access), anonymization, blocking, deletion, and destruction of personal data.</p>
+<p>The security of personal data processed by the Operator is ensured by implementing legal, organizational, and technical measures necessary to fully comply with the requirements of the applicable legislation in the field of personal data protection.</p>
+<p>The Operator ensures the safety of personal data and takes all possible measures to prevent unauthorized access to it.</p>
+<p>The term of personal data processing is valid during the term of validity of the account on the Website. It is terminated in case of withdrawal of consent or deletion of the account.</p>
+<p>The User may at any time revoke their consent to the processing of personal data and/or delete their account by sending a request to the Operator by sending a request to <a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="533f3634323f133d362536213f3c20367d3030">[email&#160;protected]</a> with the Subject of the request "Deleting an account and revoking consent to the processing of personal data".</p>
+<p>The personal data being processed are subject to destruction or anonymization upon the achievement of the processing purposes, upon revocation of the Personal Data Subject's consent to the processing of personal data, or in case of loss of necessity and achievement of these purposes, unless otherwise provided for by the Personal Data Law. Data shall be destroyed by complete destruction of the physical medium or by deletion of data on electronic storage.</p>
+<h2>7. Cross-border Transfer of Personal Data</h2>
+<p>The Operator is required to ensure that the foreign state, to the territory of which the transfer of personal data is supposed to be carried out, provides reliable protection of the rights of personal data subjects before the start of the cross-border transfer of personal data.</p>
+<p>The cross-border transfer of personal data to the territories of foreign states that do not meet the above requirements may be carried out only if the personal data subject consents in writing to the cross-border transfer of their personal data and/or if an agreement to which the personal data subject is a party is executed.</p>
+<h2>8. Data Security</h2>
+<p>8.1 In processing personal data, the Operator takes necessary legal, organizational, and technical measures to protect personal data from unlawful or accidental access, destruction, alteration, blocking, copying, provision, and dissemination, as well as from other unlawful actions concerning personal data. The Operator shall take the following measures:</p>
+<ul>
+<li>Ensures the confidentiality of personal data and takes all possible measures to prevent unauthorized access to personal data;</li>
+<li>Identifies potential threats to the security of personal data during its processing in Information Systems of personal data;</li>
+<li>Assesses the effectiveness of the measures taken to ensure the security of personal data before the Information System of personal data is put into operation;</li>
+<li>Keeps a record of the media containing personal data;</li>
+<li>Detects instances of unauthorized access to personal data and takes appropriate measures.</li>
+</ul>
+<p>8.2 The Operator may transfer the Subject's Personal Data to its employees for Personal Data Processing. With the Subject's explicit consent, the Operator may also transfer the Subject's personal data to its affiliates, including other companies within the same group as the Operator, as well as to parties with whom civil law contracts are concluded, which include mandatory obligations regarding the non-disclosure of personal data and liability measures for their disclosure.</p>
+<p>8.3 The measures to ensure the security of Personal Data implemented within the framework of the Personal Data Protection system include:</p>
+<ul>
+<li>Identification and authentication of access subjects and access objects;</li>
+<li>Managing access of access subjects to access objects;</li>
+<li>Protection of machine-readable information carriers on which Personal data are stored and/or processed;</li>
+<li>Security event logging;</li>
+<li>Antivirus protection;</li>
+<li>Intrusion detection (prevention);</li>
+<li>Control (analysis) of the security of Personal data;</li>
+<li>Ensuring the integrity of the Personal Data Information System;</li>
+<li>Ensuring the availability of Personal Data;</li>
+<li>Protection of the virtualization environment;</li>
+<li>Protection of technical equipment;</li>
+<li>Protection of the information system, its resources, communication systems, and data transmission;</li>
+<li>Detection and response to incidents (a single event or a group of events) that may lead to failures or disruption of the functioning of the information system and/or to the emergence of threats to the security of Personal Data, and response to them.</li>
+</ul>
+<p>8.4 The Operator shall not be liable for the disclosure and dissemination of information about the User by other Users or other Internet users if such persons have gained access to the said information in accordance with the privacy level settings selected by the User, or in the event of a breach by the User of the security of their login and/or password or other data necessary for authorization.</p>
+<h2>9. Final Provisions</h2>
+<p>The User may obtain any clarifications on issues of interest regarding the processing of his personal data by contacting the Operator at <a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="016d6466606d416f647764736d6e72642f6262">[email&#160;protected]</a>.</p>
+<p>This Policy, and any amendments thereto, may be made by the Operator with notice to the User, including by posting a new version of the amended Policy on the Website. Any changes made by the Operator to the Policy will come into effect the day after the new version of the Policy is posted on the Website. The User is obligated to independently review this Policy for any changes. Failure by the User to review the Policy cannot serve as grounds for the User's non-compliance with their obligations or the restrictions outlined in this Agreement.</p>
+<p>The processing of personal data may be terminated upon the achievement of the purposes for which it is processed, the expiration of the consent's validity period, or the withdrawal of consent by the personal data subject, as well as upon the identification of unlawful processing of personal data.</p>
+<p>Any changes to the Operator's personal data processing policy will be reflected in this document.</p>
+<p>This Policy remains in force indefinitely until replaced by a new version.</p>
+<p>The current version of the Policy is freely available online at <a href="privacy.html">https://neverlose.cc/privacy</a>.</p>
+<hr />
+<p><strong>Disclaimer:</strong> This document has been translated from the Russian language and may contain legal inaccuracies. For any legal matters, kindly refer to the original document in Russian.</p>
+<hr />
+<p><span class="updated">Updated on 2024 Sep 11</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+        
+        <footer>
+			<div class="container">
+				<div class="logo">
+					<div class="img">
+						<a href="index.html"><img src="static/assets/img/logo.png@81351b9614212619b30585a60cb04838" alt="logo"></a>
+					</div>
+				</div>
+				<div class="footer_links">
+					<div class="useful_links">
+						<!--a href="/forum">Forum</a-->
+						<a href="help.html">Help</a>
+						<a href="tos.html">Terms of use</a>
+						<a href="legal.html">User License Agreement</a>
+						<a href="behavior.html">Behavior rules</a>
+						<a href="privacy.html">Privacy policy</a>
+						<a href="youtube.html">Youtube policy</a>
+						<a href="misc/mediamaker_rules.html">Rules for media makers</a>
+						<a href="developers.html">Developers</a>
+						<a href="contact.html">Contacts</a>
+					</div>
+					<div class="separator"></div>
+					<div class="product_links">
+						<a href="product@type=cs2.html">CS2</a>
+						<a href="product@type=csgo.html">CS:GO</a>
+					</div>
+					<!--img src="/static/assets/img/mps_logo.png" style="width:250px"-->
+					<!--div class="soc">
+						<p>Follow us</p>
+<div class="items">
+    <div class="item"><a target="_blank" href="https://t.me/neverlosecc"><i class="fab fa-telegram-plane"></i></a></div>
+    <div class="item"><a target="_blank" href="https://vk.com/neverlose"><i class="fab fa-vk"></i></a></div>
+    <div class="item"><a target="_blank" href="/ds"><i class="fab fa-discord"></i></a></div>
+    <div class="item"><a target="_blank" href="https://twitter.com/neverloseoff"><i class="fab fa-twitter"></i></a></div>
+    <div class="item"><a target="_blank" href="https://www.youtube.com/channel/UCxVN7ejqdHXZlfukimxyaxA"><i class="fab fa-youtube"></i></a></div>
+</div>
+					</div-->
+				</div>
+
+
+				<div class="copy">
+					neverlose.cc © 2020-2024<br>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+
+    <script type="text/javascript" src="static/assets/js/app.js@hash=T1OhNSGsnYdpeUgE"></script>
+<script src='https://www.google.com/recaptcha/api.js?onload=captchaCallBack&render=explicit'></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+	(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+	ym(64402294, "init", {
+		 clickmap:true,
+		 trackLinks:true,
+		 accurateTrackBounce:true
+	});
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/64402294" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115062869-2">
+ </script>
+ <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+ 
+   gtag('config', 'UA-115062869-3');
+ </script>

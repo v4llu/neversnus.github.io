@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="static/assets/css/app.css@hash=1Fhh8xO6mJvyXbbI.css" rel="stylesheet">
+		<meta name="google-site-verification" content="8kDVb1U83X9tvIBFSqOfemMOGwRcWc-H1BOBZE_5gCI">
+		<meta name="yandex-verification" content="f5eb71addea0ad12">
+		<meta name="verification" content="28d5f7d28e31fd5be4e94628a4f47a">
+		<meta name="verification" content="90d32c4e6c1a5a36161bf452761d2d">
+		<meta name="webmoney.attestation.label" content="webmoney attestation label#52271762-51F0-4D8F-842B-AB98F530A59B">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Neversnus.cc - ClassicCounter</title>
+
+	<meta name="msapplication-TileColor" content="#0095B9">
+	<meta name="theme-color" content="#030f1a">
+<link rel="apple-touch-icon" sizes="180x180" href="static/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="static/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="static/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="static/assets/favicon/site.webmanifest">
+<link rel="mask-icon" href="static/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">	<style>
+.horizontal_btn {
+  display: flex;
+  column-gap: 15px;
+}
+
+textarea.input_aug {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 77px;
+  height: 77px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 14px;
+  background: rgba(0,0,0,0);
+  border: 1px solid rgba(0,149,185,.3);
+  outline: none;
+  border-radius: 4px;
+  -moz-appearance: textfield;
+}
+
+.paste_popup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end !important;
+    row-gap: 15px !important;
+    padding: 20px 40px;
+}
+.paste_popup .text {
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    color: #fff;
+}
+
+.soc_fixed .items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  margin-left: 5px !important;
+}
+
+.soc_fixed {
+  bottom: 35%;
+  align-items: center;
+  left: 20px !important;
+}
+
+.soc_fixed p {
+  width: auto;
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+}
+	</style>
+</head>
+<body>
+	<div>
+		<!-- div id="ball"></div -->
+    <div style="display: none;" id="xd-csrf--" x-csrf=""></div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(){
+        let cse = document.getElementById("xd-csrf--");
+        let cst = cse.getAttribute("x-csrf");
+        if (!cst) { return; }
+
+        let forms = document.getElementsByTagName("form");
+        for(var i = 0; i < forms.length; i++) {
+          let input = document.createElement("input");
+          input.type = "hidden";
+          input.name = "csrf";
+          input.value = cst;
+          forms[i].appendChild(input);
+        }
+      });
+    </script>
+
+<style>
+    .check-new{
+        align-self: flex-start;
+        padding-left: 60px !important;
+    }
+</style>
+<div class="popup_fade"></div>
+
+<script>
+        var auth_captcha;
+        var reg_captcha;
+        var forgot_captcha;
+        var captchaCallBack = function() {
+            auth_captcha = grecaptcha.render('auth-captcha', {
+                'sitekey' : '6LfltkAUAAAAAIYhSuMgm33hCMmhtkuj4iLOzaxn',
+                'theme' : 'light'
+            });
+
+            reg_captcha = grecaptcha.render('reg-captcha', {
+                'sitekey' : '6LfltkAUAAAAAIYhSuMgm33hCMmhtkuj4iLOzaxn',
+                'theme' : 'light'
+            });
+            
+            forgot_captcha = grecaptcha.render('forgot-captcha', {
+                'sitekey' : '6LfltkAUAAAAAIYhSuMgm33hCMmhtkuj4iLOzaxn',
+                'theme' : 'light'
+            });
+        };
+</script>
+
+<div class="popups" id="reg">
+    <div class="block widthPopUp">
+        <div class="close">
+            <a href="product@type=cs2.html#"><i class="fas fa-times-circle"></i></a>
+        </div>
+        <form method="post" action="https://neverlose.cc/doregister" class="userform">
+            <div class="container flex-cont">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="static/assets/img/logo.png@81351b9614212619b30585a60cb04838" alt="logo">
+                    </a>
+                </div>
+                <div class="status"></div>
+                <div class="input_log">
+                    <input type="text" placeholder="Login" name="login" required>
+                </div>
+                <div class="input_pass">
+                    <input type="password" placeholder="Password" name="password" required>
+                </div>
+                <div class="input_email">
+                    <input type="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="capcha"><div id="auth-captcha"></div></div>
+                
+                <div class="check check-new">
+                    <input type="checkbox" name="yes" id="yesCheck" required>
+                    <label for="yesCheck">I agree with <a href="tos.html">terms of use</a>
+                        
+                    </label>
+                </div>
+                <div class="check check-new">
+                    <input type="checkbox" name="yes" id="yesCheck2" required>
+                    <label for="yesCheck2">I agree with  <a href="legal.html">user license agreement</a>
+                    </label>
+                </div>
+                <div class="check check-new">
+                    <input type="checkbox" name="yes" id="yesCheck3" required>
+                    <label for="yesCheck3">I agree with <a href="privacy.html">privacy policy</a>
+                    </label>
+                </div>
+                <input type="submit" value="Register" class="btn">
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="popups" id="log">
+    <div class="block widthPopUp">
+        <div class="close">
+            <a href="product@type=cs2.html#"><i class="fas fa-times-circle"></i></a>
+        </div>
+        <form method="post" action="https://neverlose.cc/login" class="userform">
+            <div class="container flex-cont">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="static/assets/img/logo.png@81351b9614212619b30585a60cb04838" alt="logo">
+                        </a>
+                    </div>
+                    <div class="status"></div>
+                    <div class="input_log">
+                        <input type="text" placeholder="Login" name="login" required>
+                    </div>
+                    <div class="input_pass">
+                        <input type="password" placeholder="Password" name="password" required>
+                    </div>
+                    <div class="capcha"><div id="reg-captcha"></div></div>
+                    <input type="submit" value="Login" class="btn">
+                    <div class="some_text">
+                        <a href="product@type=cs2.html#respassw" class="to-popup">Forgot password?</a>
+                        <a href="product@type=cs2.html#respassw" class="to-popup">Resend activation link</a>
+                        <a href="product@type=cs2.html#reg" class="to-popup">Still don&#039;t have an account? <span>Register</span></a>
+                    </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="popups" id="2facode">
+    <div class="block widthPopUp">
+        <div class="close">
+            <a href="product@type=cs2.html#"><i class="fas fa-times-circle"></i></a>
+        </div>
+        <form method="post" action="https://neverlose.cc/2falogin" class="userform">
+            <div class="container flex-cont">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="static/assets/img/logo.png@81351b9614212619b30585a60cb04838" alt="logo">
+                        </a>
+                    </div>
+                    <div class="status"></div>
+					
+					<div class="twofa_text">
+                      Please enter the verification code generated by the app on your phone.
+                    </div>
+					
+                    <div class="input_log" style="margin-bottom:5px;">
+                        <input type="text" placeholder="Code from authenticator" name="code" required maxlength="6" minlength="6">
+                    </div>
+                    <input type="submit" value="Login" class="btn">
+                <div class="some_text">
+                    <a href="lost_2fa_help.html" target="_blank">Lost 2FA?</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="popups" id="respassw">
+    <div class="block widthPopUp">
+        <div class="close">
+            <a href="product@type=cs2.html#"><i class="fas fa-times-circle"></i></a>
+        </div>
+        <form method="post" action="https://neverlose.cc/resetpassw" class="userform">
+            <div class="container flex-cont">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="static/assets/img/logo.png@81351b9614212619b30585a60cb04838" alt="logo">
+                        </a>
+                    </div>
+                    <div class="status"></div>
+                    <div class="input_email">
+                        <input type="email" placeholder="Email" name="email" required>
+                    </div>
+                    <div class="capcha"><div id="forgot-captcha"></div></div>
+                    <input type="submit" value="Send" class="btn">
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<section class="menu">
+  <div class="logo">
+    <div class="img">
+      <a href="index.html"><img src="static/assets/img/logo.png@81351b9614212619b30585a60cb04838" alt="logo"></a>
+    </div>
+  </div>
+  <div class="links">
+    <a href="index.html">Main</a>
+    <a href="https://classiccounter.cc">ClassicCounter</a>
+    <a href="help.html">Help</a>
+  </div>
+  <div class="other">
+    <div class="reg">
+      <a href="https://ollum.cc"></i> Ollum.CC</a>
+    </div>
+    <div class="login">
+      <a href="https://ollum.cc/inventory">FREE CASES</a>
+    </div>
+  </div>
+</section>
+
+<style>
+.popup_below_btns > hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.payment-warning {
+  color: white !important;
+  background: #ac3f34;
+  border-radius: 5px;
+  font-weight: 400;
+  text-align: left !important;
+  line-height: 1.2;
+  margin: 16px 0;
+}
+.payment-warning a {
+  color: #82b1e3 !important;
+}
+.payment-warning pre:nth-of-type(1) {
+  margin-top: 0;
+}
+.payment-warning pre {
+  margin-top: 10px;
+}
+.payment-warning-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+  display: flex;
+  align-items: center;
+}
+.payment-warning-icon {
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20height%3D%2236px%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2236px%22%20fill%3D%22%23fff%22%3E%3Cpath%20d%3D%22M0%200h24v24H0V0z%22%20fill%3D%22none%22/%3E%3Cpath%20d%3D%22M11%2015h2v2h-2zm0-8h2v6h-2zm.99-5C6.47%202%202%206.48%202%2012s4.47%2010%209.99%2010C17.52%2022%2022%2017.52%2022%2012S17.52%202%2011.99%202zM12%2020c-4.42%200-8-3.58-8-8s3.58-8%208-8%208%203.58%208%208-3.58%208-8%208z%22/%3E%3C/svg%3E');
+  height: 36px;
+  width: 36px;
+  margin-right: 10px;
+}
+
+.cbuyform {
+  overflow-y: auto;
+}
+.cbuyform > .container {
+  height: fit-content;
+}
+.popups {
+  height: auto !important;
+}
+
+@media(max-height: 600px) {
+  .popups {
+    height: 100vh !important;
+  }
+}
+
+
+.cheat_desc_buy_info {
+  background: none;
+}
+.cheat_desc_header {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.cheat_desc_header .container {
+  margin: 0;
+  width: 100%;
+  max-width: none;
+  display: flex;
+}
+.cheat_desc_header .container .spacer1 {
+  flex: 1;
+}
+.cheat_desc_header .container .spacer2 {
+  flex: 2.3;
+}
+.cheat_desc_header .title {
+  -webkit-box-pack: unset;
+  -ms-flex-pack: unset;
+  -ms-flex-line-pack: unset;
+
+  /*flex: 1;*/
+  font-size: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
+.cheat_desc_header .title h1 {
+  font-size: 2em;
+}
+.cheat_desc_header .title .title_above {
+  text-align: left;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 900;
+  line-height: 0.5em;
+}
+.cheat_desc_buy_outer {
+  background: linear-gradient(135deg,rgba(153, 99, 59, 0.55),rgba(70, 44, 36, 0.56),rgba(14, 26, 62, 0.56));;
+}
+@media (max-width: 1170px) {
+  .cheat_desc_header .title {
+    font-size: 20px !important;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 320px) and (max-width: 460px) and (orientation: portrait) {
+  .cheat_desc_header .title {
+    font-size: 12px !important;
+    line-height: 1.5;
+  }
+}
+</style>
+
+
+<section class="cheat_desc_header">
+    <div class="cheat_desc_header_bg" style='background:linear-gradient(135deg,rgba(217, 111, 34, 0.56),rgba(244, 105, 3, 0.15) 40%,#794a0dc7),url(static/assets/img/prod_item_cs2.jpg) no-repeat 50%; background-size:cover;;'></div>
+    <div class="container">
+      <div class="spacer1"></div>
+      <div class="title">
+        <div class="title_above">Neversnus for</div>
+        <h1>ClassicCounter</h1>
+      </div>
+      <div class="spacer2"></div>
+    </div>
+  </section>
+  <div class="cheat_desc_buy_outer">
+    <section class="cheat_desc_content"></section>
+    <section class="cheat_desc_buy_info">
+      <div class="cheat_desc_buy_info_container">
+          <div class="items">
+              <div class="item">
+                <div class="price">50<span>€</span></div>
+                  <div class="small_price">(1 Valeria Phoenix Pin)</div>
+                <div class="counter">2 days</div>
+                  <a class="btn to-popup" href='product@type=cs2.html#log'>BUY</a>
+              </div>
+              <div class="item">
+                <div class="price">100<span>€</span></div>
+                  <div class="small_price">(A shitty knife and glove combo)</div>
+                <div class="counter">7 days</div>
+                  <a class="btn to-popup" href='product@type=cs2.html#log'>BUY</a>
+              </div>
+              <div class="item">
+                <div class="price">300<span>€</span></div>
+                  <div class="small_price">(Rare steam ID & 2007 Group)</div>
+                <div class="counter">24 days</div>
+                  <a class="btn to-popup" href='product@type=cs2.html#log'>BUY</a>
+              </div>
+              <div class="item">
+                <div class="price">1000<span>€</span></div>
+                  <div class="small_price">(Level 500 Steam account with 3 letter ID and Groups)</div>
+                <div class="counter">1 month</div>
+                  <a class="btn to-popup" href='product@type=cs2.html#log'>BUY</a>
+              </div>
+          </div>
+        <div class="pay_sys">
+          <div class="container">
+            <!--h3>WebMoney, MIR, Visa, MasterCard, Qiwi.</h3>
+            <div class="pay_logo">
+              
+              <img src="/static/assets/img/mps_logo.png" style="width:250px">
+            </div>
+            <div class="pay_logo" style="grid-template-columns: repeat(2,100px);">
+              <img src="/static/assets/img/5.png" alt="">
+              <img src="/static/assets/img/6.png" alt="">
+            </div>
+            <div class="pay_logo" style="grid-template-columns: repeat(1,230px);">
+              <a href="//paymaster.ru" target="_blank"><img src="/static/assets/img/logo-paymaster-standart.png" alt="PayMaster logo"/></a>
+            </div-->
+            <h3 class="gray"> System requirements: Windows Vista/7 Professional x64. Requires always active internet connection. </h3>
+            <h3 class="gray"> Automated purchase. Immediately after payment you can download the product in your account. Need help? <a class="linkified" href="how_to_buy.html">Click here!</a>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+        
+        <footer>
+			<div class="container">
+				<div class="logo">
+					<div class="img">
+						<a href="index.html"><img src="static/assets/img/logo.png@81351b9614212619b30585a60cb04838" alt="logo"></a>
+					</div>
+				</div>
+				<div class="footer_links">
+					<div class="useful_links">
+						<!--a href="/forum">Forum</a-->
+						<a href="help.html">Help</a>
+						<a href="tos.html">Terms of use</a>
+						<a href="legal.html">User License Agreement</a>
+						<a href="behavior.html">Behavior rules</a>
+						<a href="privacy.html">Privacy policy</a>
+						<a href="youtube.html">Youtube policy</a>
+						<a href="misc/mediamaker_rules.html">Rules for media makers</a>
+						<a href="developers.html">Developers</a>
+						<a href="contact.html">Contacts</a>
+					</div>
+					<div class="separator"></div>
+					<div class="product_links">
+						<a href="product@type=cs2.html">CC</a>
+						<a href="product@type=csgo.html">ROBLOX</a>
+					</div>
+					<!--img src="/static/assets/img/mps_logo.png" style="width:250px"-->
+					<!--div class="soc">
+						<p>Follow us</p>
+<div class="items">
+    <div class="item"><a target="_blank" href="https://t.me/neverlosecc"><i class="fab fa-telegram-plane"></i></a></div>
+    <div class="item"><a target="_blank" href="https://vk.com/classiccounter"><i class="fab fa-vk"></i></a></div>
+    <div class="item"><a target="_blank" href="/ds"><i class="fab fa-discord"></i></a></div>
+    <div class="item"><a target="_blank" href="https://twitter.com/classic_counter"><i class="fab fa-twitter"></i></a></div>
+    <div class="item"><a target="_blank" href="https://www.youtube.com/@ClassicCounter"><i class="fab fa-youtube"></i></a></div>
+</div>
+					</div-->
+				</div>
+
+
+				<div class="copy">
+					neversnus.cc © 2024-2024<br>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+</body>
+
+    <script type="text/javascript" src="static/assets/js/app.js@hash=T1OhNSGsnYdpeUgE"></script>
+<script src='https://www.google.com/recaptcha/api.js?onload=captchaCallBack&render=explicit'></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+	(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+	ym(64402294, "init", {
+		 clickmap:true,
+		 trackLinks:true,
+		 accurateTrackBounce:true
+	});
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/64402294" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115062869-2">
+ </script>
+ <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+ 
+   gtag('config', 'UA-115062869-3');
+ </script>
